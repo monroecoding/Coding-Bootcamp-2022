@@ -29,15 +29,10 @@ print(
 
 #naming variables
 name = "John" #valid variable name
-ename = "John" #variables cannot start with a number, *comment this out before running*
+2 name = "John" #variables cannot start with a number or contain spaces, *comment this out before running*
 multi_word_variable = True #separate multi-word variables with underscores
 
 
 #This is a comment! The computer will ignore this when the program is run
 #num = 12
 #print(num)
-
-
-#inputs
-first_name = input("Enter your first name: ") #asks the user for input and saves it to variable
-print(first_name)
