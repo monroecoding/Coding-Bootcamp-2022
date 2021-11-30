@@ -4,10 +4,15 @@ Coding Bootcamp at Monroe Township
 2/17 Coding Examples
 """
 
+#getting user input
+
+word = input("Enter a word: ")
+print(word)
+
 
 #ints and floats, perform basic math operations
 
-print("Int and float examples: ")
+print("\nInt and float examples: ")
 
 print(5 + 5.0) #any operation including a float returns a float
 print(5 / 5) #float division
@@ -60,7 +65,7 @@ float(9)
 #not valid conversions
 """
 int("hello world")
-float(True)
+float("apple")
 """
 
 
