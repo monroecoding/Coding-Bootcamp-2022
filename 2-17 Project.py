@@ -8,7 +8,7 @@ some data about it.
 
 The data we want:
     -length of the sentence
-    -the sentence in reverse (if word is 'hello world', return 'dlrow olleh')
+    -the sentence in reverse (if sentence is 'hello world', print 'dlrow olleh')
     -how many times does the sentence contain the word 'the'
     -use concatenation or a formatted string to print everything out
     
