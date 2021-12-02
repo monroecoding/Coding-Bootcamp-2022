@@ -16,7 +16,7 @@ print("\nInt and float examples: ")
 
 print(5 + 5.0) #any operation including a float returns a float
 print(5 / 5) #float division
-print(5 // 2) #int division, if there is decimal it will round down
+print(5 // 2) #floor/int division, if there is decimal it will round down
 print(5 + 3 * 6 / 3 - 2) #PEMDAS order of operations
 print(5 % 2) #modulus, returns remainder
 
@@ -60,6 +60,7 @@ int("123")
 str(3.14)
 bool(None)
 float(9)
+int(True)
 
 
 #not valid conversions
@@ -67,7 +68,3 @@ float(9)
 int("hello world")
 float("apple")
 """
-
-
-
-
