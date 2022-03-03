@@ -1,0 +1,43 @@
+"""
+Coding Bootcamp at the Monroe Township Library
+
+3/5 Project
+
+Create an interactive game of rock, paper, scissors. The program should take user input and
+the computer will generate a pick randomly. Print to the terminal whether the user wins, loses, or ties.
+
+Things to consider:
+    -make sure your program accounts for the user inputting something other than one of the 3 choices
+    -you might also want to consider accounting for case (Rock or ROCK could still be valid inputs)
+    -you could also print out the computer's pick to make sure your program is working correctly
+
+Test cases:
+    input -> rock
+    computer_pick -> rock
+    output -> Tie!
+
+    input -> paper
+    computer_pick -> scissors
+    output -> You lose!
+
+    input -> rock
+    computer_pick -> scissors
+    output -> You win!
+
+    input -> hello
+    output -> Not a valid option
+
+If you want an additional challenge, keep the game running until the user wins. (Hint: use a loop)
+"""
+
+
+# getting the computer's randomly generated pick
+# you don't need to understand this code right now, just use the computer_pick variable in your code
+import random
+
+options = ["rock", "paper", "scissors"]
+computer_pick = random.choice(options)
+
+user_pick = input("Choose rock, paper, or scissors: ")
+
+#your code goes here
