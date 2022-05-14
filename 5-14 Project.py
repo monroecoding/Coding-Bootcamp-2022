@@ -111,12 +111,14 @@ def main():
             if check_guess(word, letters_guessed) == True:
                 print("-------")
                 print(f"You got it! Correct word: {word}")
+                break
             else:
                 print(display_letters(word, letters_guessed))
                 tries -= 1
 
-    print("-------")
-    print(f"Out of tries, correct word: {word}")
+    if tries <= 0:
+        print("-------")
+        print(f"Out of tries, correct word: {word}")
 
 
 if __name__ == "__main__":
