@@ -58,7 +58,7 @@ for num in range(10):
         even_numbers.append(num)
 
 #the code above can be done in a single line with a list comprehension
-evens = [num for num in range(10) if num % 2 == 0 if num < 0]
+evens = [num for num in range(10) if num % 2 == 0]
 
 
 #you can 'unpack' the contents of a list or tuple and save them as separate variables
@@ -69,3 +69,4 @@ parts_of_file = file.partition(".") #partition is a string method that returns a
 name, _, file_type = parts_of_file #it is convention to use an underscore for vars you don't need
 
 print(file_type)
+print(evens)
