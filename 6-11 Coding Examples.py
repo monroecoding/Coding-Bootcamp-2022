@@ -69,4 +69,3 @@ parts_of_file = file.partition(".") #partition is a string method that returns a
 name, _, file_type = parts_of_file #it is convention to use an underscore for vars you don't need
 
 print(file_type)
-print(evens)
